@@ -1,0 +1,277 @@
+@font-face {
+    font-family: grafik;
+    src: url("../fonts/Graphik-Regular.woff");
+}
+
+@font-face {
+    font-family: thein;
+    src: url("../fonts/Theinhardt-Lt.woff");
+}
+
+@font-face {
+    font-family: tiempo;
+    src: url("../fonts/TiemposHeadline-Semibold.woff");
+}
+
+/* ==  Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff == */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ====== darmode ========= */
+.dark {
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+/* header {
+    font-size: 1rem;
+} */
+
+header div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+header div h1 {
+    font-family: tiempo;
+}
+
+header div ul {
+    display: flex;
+    list-style: none;
+}
+
+header div ul li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0 0.5rem;
+    color: #2B2C2E;
+    font-family: grafik;
+}
+
+.hero {
+    background-image: url("../img/home_hero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30rem;
+    margin-top: 4rem;
+}
+
+header section h2 {
+    text-align: center;
+    font-family: grafik;
+}
+
+/* ====================== MAIN ================ */
+
+main section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#wewill {
+
+    font-family: grafik;
+    font-size: 1.8rem;
+    width: 30rem;
+}
+
+#dollar {
+    font-size: 2rem;
+
+}
+
+#flat {
+    font-family: grafik;
+    font-size: 1.5rem;
+    padding-top: 1.8rem;
+    width: 20rem;
+}
+
+/* ========= Section 2 ======== */
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec2 img {
+    width: 30rem;
+    height: auto;
+}
+
+.sec2 img {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.sec2 div {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.sec2 h1 {
+    font-family: tiempo;
+    font-size: 5.5rem;
+    padding-bottom: 2rem;
+}
+
+.sec2 h3 {
+    font-family: grafik;
+    font-size: 2.8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+.sec2 div p {
+    font-size: 1.5rem;
+    width: 30rem;
+
+}
+
+/* ====== Section 3 ========= */
+
+.background {
+    display: flex;
+    flex-direction: column;
+    background-color: #848689;
+}
+
+
+.sec3 div {
+    width: 48.136rem;
+    margin: 0 auto;
+}
+
+.sec3 div h2 {
+    font-family: tiempo;
+    font-size: 4rem;
+
+}
+
+.sec3 div p {
+    width: 20rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.background img {
+    width: 40rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* ===== Article ====== */
+
+.kritik h2 {
+    font-family: thein;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.kritik p {
+    font-size: 1.35rem;
+    text-align: center;
+    width: 40rem;
+    margin: 0 auto;
+    line-height: 3rem;
+}
+
+#one {
+    padding-bottom: 4rem;
+}
+
+
+/* ========= parent container position relative und dem bild absoule, zum verschieben */
+
+.zahl {
+    background-image: url("../img/28.png");
+    background-size: contain;
+    background-size: 100rem auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+
+
+}
+
+.zahl img {
+    width: 36rem;
+    height: auto;
+    position: absolute;
+    left: 22rem;
+    top: 10rem;
+}
+
+#average {
+    text-align: left;
+    font-family: tiempo;
+    font-size: 1rem;
+    padding-top: 18rem;
+    padding-left: 6rem;
+    width: 28rem;
+}
+
+/* ======== FOOTER ======== */
+
+
+
+footer h2 {
+    border-top: 2px solid black;
+    margin-top: 9rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+
+
+}
+
+#touch {
+    padding-top: 10rem;
+}
+
+
+
+
+
+footer div img {
+    width: 4rem;
+    height: auto;
+
+
+}
+
+#touch {
+    font-size: 2rem;
+    padding-top: 4rem;
+
+}
+
+#touch a {
+    text-decoration: none;
+}
