@@ -78,6 +78,7 @@ header section h2 {
 main section {
     display: flex;
     justify-content: space-around;
+    padding-top: 2rem;
 }
 
 #wewill {
@@ -274,4 +275,49 @@ footer div img {
 
 #touch a {
     text-decoration: none;
+}
+
+
+/* ============ AB 1903 pixel ====== */
+
+@media only screen and (min-width: 1903px) {
+
+    html {
+        font-size: 14px;
+    }
+
+
+    .hero {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 50rem;
+
+    }
+
+    main section {
+        padding-top: 9rem;
+    }
+
+
+    .sec2 {
+        flex-direction: row;
+    }
+
+
+    .background {
+        flex-direction: row;
+    }
+
+
+    .zahl img {
+        left: 73rem;
+        top: 15rem;
+    }
+
+    #average {
+        padding-top: 20rem;
+        padding-left: 41rem;
+        width: 75rem;
+    }
 }
